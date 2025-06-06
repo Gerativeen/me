@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the QWERTY layout.
+
+  1 7 2
+  5 0 6
+  3 8 4
+
+-->
+<keyboard name="Gertiveens (PL)" script="latin" bottom_row="false">
+
+<modmap>
+<fn a="p" b="p" />
+<fn a="b" b="b" />
+<fn a="u" b="u" />
+<fn a="h" b="h" />
+<fn a="r" b="r" />
+<fn a="y" b="y" />
+<fn a=":" b=":" />
+<fn a="\t" b="tab" />
+<fn a="" b="" />
+</modmap>
+
+
+  <row height="0.8">
+  <key key0="1" key8="!" />
+  <key key0="2" key8="\@" key7="\t" />
+  <key key0="3" key8="#" key7="" />
+  <key key0="4" key8="$" key7="§" />
+  <key key0="5" key8="%" key7="~" />
+  <key key0="6" key8="^" />
+  <key key0="7" key1="_" key8="&amp;" key7="-" />
+  <key key0="8" key8="*" key7="+" />
+  <key key0="9" key8="(" key7="=" />
+  <key key0="0" key8=")" key7="•" />
+  </row>
+
+  <row>
+    <key key0="q" key1="esc" key2="`" key4="superscript"/>
+    <key key0="w" key4="subscript" />
+    <key key0="e"  key3="ę" />
+    <key key0="r" />
+    <key key0="t" />
+    <key key0="y" />
+    <key key0="u" />
+    <key key0="i" key3="{" key4="}" />
+    <key key0="o" key4="ó" />
+    <key key0="p" key4="?" />
+  </row>
+
+  <row>
+    <key shift="0.2" width="1.2" key0="a" key3="ą" />
+    <key key0="s" key3="ś" />
+    <key key0="d" />
+    <key key0="f" />
+    <key key0="g" />
+    <key key0="h" />
+    <key key0="j" key3="[" key4="]" />
+    <key key0="k" key2=";" key3=":" />
+    <key width="1.2" key0="l" key2="\\" key3="/" key1="|" key4="ł"/>
+  </row>
+
+  <row>
+    <key width="1.2" key0="shift" key2="compose" key4="alt" />
+    <key key0="z" key1="ƶ" key3="ż" key4="ź" />
+    <key key0="x" />
+    <key key0="c" key3="ć" />
+    <key key0="v" />
+    <key key0="b" key3="&lt;" key4="&gt;" />
+    <key key0="n" key4="ń" />
+    <key key0="m" key1="&quot;" key2="'" key3="." key4="," />
+    <key width="1.8" key0="backspace" key2="delete" key3="&#10;" />
+  </row>
+
+  <row height="0.9">
+    <key width="1.7" key0="ctrl" key4="switch_numeric" key7="fn" />
+    <key width="1.1" key0="switch_emoji" key8="config" />
+    <key width="4.4" key0="space" key7="up" key8="down" key5="left" key6="right" />
+    <key width="1.1" key0="" />
+  <key width="1.7" key0="enter" key2="action" key1="\n" />
+
+  </row>
+</keyboard>
